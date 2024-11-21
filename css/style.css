@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #d0cbf3;
+}
+
+body section{
+    background-color: #1a1832;
+    color: white;
+    width: fit-content;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body section h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+body section .close-button{
+    text-align: right;
+}
+
+section .close-button button{
+    background-color: transparent;
+    color: #cccbe9;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section .close-button button:hover{
+    border: none;
+}
+
+.container{
+    padding: 0 30px 30px 30px;
+}
+
+section button{
+    width: 40px;
+    height: 40px;
+    background-color: #1a2036;
+    color: #babed3;
+    border: 2px solid #272a43;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+section button:hover{
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid #54556c;
+}
+
+.wrap-text p{
+    padding: 5px;
+    color: #cccbe9;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.wrap-text p:nth-of-type(2){
+    float: right;
+}
+
+.align-right{
+    text-align: right;
+}
+
+section .cancel-submit-button button{
+    width: fit-content;
+    height: fit-content;
+    padding: 6px 30px;
+    font-size: 12px;
+    margin-top: 35px;
+    border: 1px solid #433385;
+    font-weight: bold;
+}
+
+section .cancel-submit-button button:nth-of-type(2){
+    background-color: #7a58f4;
+    border: 1px solid #2d2559;
+    float: right;
+    color: rgb(245, 245, 245);
+}
